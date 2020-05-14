@@ -1,5 +1,5 @@
 # Language.Projects
-Various languages currently studying or practicing
+Languages currently studying or practicing
 
 1. Python
 2. Java

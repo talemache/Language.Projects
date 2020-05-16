@@ -14,13 +14,15 @@ hours = input(promptHours)
 promptRate = 'What is your rate of pay?\n'
 rate = input(promptRate)
 
-grossPay = rate * hours
+grossPay = int(rate) * int(hours)
 print('The amount you will make is: ', grossPay)
 
 # Write a program which prompts the user for a Celsius temperature, 
 # convert the temperature to Fahrenheit, and print out the converted temperature.
 
 promptTemp = 'What is the temperature in Celsius?\n'
-input(promptTemp)
 
-print(promptTemp * (9/5) + 32)
+temp = input(promptTemp)
+degreesFahrenheit = int(temp) * 9/5 + 32
+
+print(degreesFahrenheit)

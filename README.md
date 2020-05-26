@@ -1,5 +1,5 @@
 # Language.Projects
-Languages currently studying or practicing
+Repository to hold the running list of languages currently learning/studying
 
 1. Python
 2. Java
@@ -9,5 +9,3 @@ Languages currently studying or practicing
 6. C#
 7. Swift
 8. Angular
-
-# More to be added in the future

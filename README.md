@@ -8,5 +8,6 @@ Languages currently studying or practicing
 5. Golang
 6. C#
 7. Swift
+8. Angular
 
 # More to be added in the future

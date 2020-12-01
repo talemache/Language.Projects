@@ -2,11 +2,12 @@ body{
     padding: 0;
     margin: 0;
     background: #f2f6e9;
+    background: url(images/header-background.jpg)
 }
 
 /*--- navigation bar ---*/
 .navbar{
-    background: #6ab446;
+    background: #646464;
 }
 
 .nav-link,
@@ -28,17 +29,11 @@ body{
 }
 /*--- end navigation bar ---*/
 
-/*--- container for page content ---*/
-<header class="page-header header container-fluid">
-
-</header>
-/*--- end container for page content ---*/
-
-/*--- set background image in main.js ---*/
-.header{
+/*--- set background image in main.js 
+.header {
     background-image: url('images/header-background.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-}
-/*--- end et background image in main.js ---*/
+  }
+ end set background image in main.js ---*/

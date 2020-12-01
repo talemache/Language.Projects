@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+.navbar{
+    background: #6ab446;
+}
+
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+/*--- end navigation bar ---*/
+
+/*--- container for page content ---*/
+<header class="page-header header container-fluid">
+
+</header>
+/*--- end container for page content ---*/
+
+/*--- set background image in main.js ---*/
+.header{
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/*--- end et background image in main.js ---*/

@@ -46,6 +46,7 @@ body{
      top: 0;
      background: rgba(0, 0, 0, 0.6);
  }
+/*--- end overlay ---*/
 
  /*--- description ---*/
  .description{
@@ -65,3 +66,21 @@ body{
      font-size: 1.3rem;
      line-height: 1.5;
  }
+ /*--- end description ---*/
+
+ /*--- button ---*/
+.description button{
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0;
+    color: #fff;
+}
+
+.description button:hover{
+    border: 1px solid #fff;
+    background:  #fff;
+    color: rgb(7, 4, 4);
+}
+ /*--- end button ---*/
+
+

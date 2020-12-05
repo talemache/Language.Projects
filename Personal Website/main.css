@@ -66,6 +66,31 @@ body{
      font-size: 1.3rem;
      line-height: 1.5;
  }
+
+ /*--- under construction
+ --- mobile view description ---
+ @media (max-width: 575.98px){
+     .description{
+         left:  0;
+         padding: 0 15px;
+         position: absolute;
+         top: 10%;
+         transition: none;
+         text-align: center;
+     }
+
+     .description h1{
+         font-size: 2em;
+     }
+
+     .description p{
+         font-size: 1.2rem;
+     }
+
+     .features{
+         margin: 0;
+     }
+ } end construction site ---*/
  /*--- end description ---*/
 
  /*--- button ---*/

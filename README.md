@@ -1,5 +1,5 @@
 # Language.Projects
-Repository to hold the running list of languages currently learning/studying
+Running list of languages currently learning/studying
 
 1. Python
 2. Java

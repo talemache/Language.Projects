@@ -1,0 +1,281 @@
+Script started on Sat Dec 12 10:04:02 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$  f[K[Kls
+commented-script1.sh	script1.sh		typescript
+bash-3.2$ script [K1.sh
+bash: script1.sh: command not found
+bash-3.2$ chmod u+x script1.sh
+bash-3.2$ ls -l script1.sh 
+-rwxr-xr-x  1 talemache  staff  328 Dec 12 09:43 script1.sh
+bash-3.2$ script [K1.sh
+bash: script1.sh: command not found
+bash-3.2$ echo[K[K[K[Ksource [K[K[K[K[K[K[K./script1.sh 
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
+10:05  up 11 days, 20:47, 4 users, load averages: 2.86 2.93 2.87
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:11 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ echo #[K$COLOT[KR
+
+bash-3.2$ rbash script1.sh 
+bash: rbash: command not found
+bash-3.2$ sh script1.sh 
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
+10:05  up 11 days, 20:47, 4 users, load averages: 2.95 2.95 2.88
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:12 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ bash -x script1.sh 
++ clear
+[H[2J[3J+ echo 'The script starts now.'
+The script starts now.
++ echo 'Hi, talemache!'
+Hi, talemache!
++ echo
+
++ echo 'I will now fetch you a list of connected users:'
+I will now fetch you a list of connected users:
++ echo
+
++ w
+10:05  up 11 days, 20:47, 4 users, load averages: 2.90 2.93 2.88
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:12 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
++ echo
+
++ echo 'I'\''m setting two variables now.'
+I'm setting two variables now.
++ COLOR=black
++ VALUE=9
++ echo 'This is a string: black'
+This is a string: black
++ echo 'And this is a number: 9'
+And this is a number: 9
++ echo
+
++ echo 'I'\''m giving you back your prompt now.'
+I'm giving you back your prompt now.
++ echo
+
+bash-3.2$ source script1.sh 
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
+10:06  up 11 days, 20:47, 4 users, load averages: 2.84 2.92 2.87
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:12 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ $COLOR
+bash: black: command not found
+bash-3.2$ COLOR
+bash: COLOR: command not found
+bash-3.2$ #[K$VALUE
+bash: 9: command not found
+bash-3.2$ a[Kbash -x script1.sh 
++ clear
+[H[2J[3J+ echo 'The script starts now.'
+The script starts now.
++ echo 'Hi, talemache!'
+Hi, talemache!
++ echo
+
++ echo 'I will now fetch you a list of connected users:'
+I will now fetch you a list of connected users:
++ echo
+
++ w
+10:06  up 11 days, 20:48, 4 users, load averages: 3.24 3.02 2.91
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:13 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
++ echo
+
++ echo 'I'\''m setting two variables now.'
+I'm setting two variables now.
++ COLOR=black
++ VALUE=9
++ echo 'This is a string: black'
+This is a string: black
++ echo 'And this is a number: 9'
+And this is a number: 9
++ echo
+
++ echo 'I'\''m giving you back your prompt now.'
+I'm giving you back your prompt now.
++ echo
+
+bash-3.2$ bash[K[K[K[Ksh commented-script1.sh 
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
++ w
+10:16  up 11 days, 20:58, 4 users, load averages: 2.46 2.80 2.84
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:22 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
++ set +x
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ sh script1.sh 
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
+10:16  up 11 days, 20:58, 4 users, load averages: 2.67 2.81 2.84
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:23 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ bahs [K[K[Ksh -x script1.sh 
++ clear
+[H[2J[3J+ echo 'The script starts now.'
+The script starts now.
++ echo 'Hi, talemache!'
+Hi, talemache!
++ echo
+
++ echo 'I will now fetch you a list of connected users:'
+I will now fetch you a list of connected users:
++ echo
+
++ w
+10:17  up 11 days, 20:59, 4 users, load averages: 2.97 2.85 2.85
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    1:24 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
++ echo
+
++ echo 'I'\''m setting two variables now.'
+I'm setting two variables now.
++ COLOR=black
++ VALUE=9
++ echo 'This is a string: black'
+This is a string: black
++ echo 'And this is a number: 9'
+And this is a number: 9
++ echo
+
++ echo 'I'\''m giving you back your prompt now.'
+I'm giving you back your prompt now.
++ echo
+
+bash-3.2$ bash -x script1.sh [C[C[C[C[C[C[C[C[C[C[Kbash -x script1.sh [C[C[C[C[C[C[C[C[C[C[Kbash -x script1.sh [1P[1P[1P
+[H[2J[3JThe script starts now.
+Hi, talemache!
+
+I will now fetch you a list of connected users:
+
+11:59  up 11 days, 22:41, 4 users, load averages: 2.52 2.74 2.80
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    3:05 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
+
+I'm setting two variables now.
+This is a string: black
+And this is a number: 9
+
+I'm giving you back your prompt now.
+
+bash-3.2$ bash script1.sh [3@-x [C[C[C[C[C[C[C[C[C[C[C
++ clear
+[H[2J[3J+ echo 'The script starts now.'
+The script starts now.
++ echo 'Hi, talemache!'
+Hi, talemache!
++ echo
+
++ echo 'I will now fetch you a list of connected users:'
+I will now fetch you a list of connected users:
++ echo
+
++ w
+11:59  up 11 days, 22:41, 4 users, load averages: 2.48 2.72 2.80
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+_mbsetupuser console  -                30Nov20 11days -
+talemache console  -                30Nov20 11days -
+talemache s000     -                 8:49    3:06 -bash         ÿ¿    /bin/bash
+talemache s001     -                 8:55       - script        ÿ¿    /usr/bin/
++ echo
+
++ echo 'I'\''m setting two variables now.'
+I'm setting two variables now.
++ COLOR=black
++ VALUE=9
++ echo 'This is a string: black'
+This is a string: black
++ echo 'And this is a number: 9'
+And this is a number: 9
++ echo
+
++ echo 'I'\''m giving you back your prompt now.'
+I'm giving you back your prompt now.
++ echo
+
+bash-3.2$ 

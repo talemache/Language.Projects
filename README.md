@@ -14,3 +14,4 @@ Running list of languages currently learning/studying
 11. Unity
 12. Unreal
 13. APIs
+14. Bash Scripting

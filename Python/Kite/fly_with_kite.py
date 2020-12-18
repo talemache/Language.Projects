@@ -4,4 +4,4 @@ file_name = 'foo.csv'
 chunks = []
 chunk_size = 10
 
-for 
+for chunk in p

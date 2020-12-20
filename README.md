@@ -1,5 +1,5 @@
 # Language.Projects
-Repository to hold the running list of languages currently learning/studying
+Running list of languages currently learning/studying
 
 1. Python
 2. Java
@@ -13,3 +13,5 @@ Repository to hold the running list of languages currently learning/studying
 10. Phaser
 11. Unity
 12. Unreal
+13. APIs
+14. Bash Scripting
